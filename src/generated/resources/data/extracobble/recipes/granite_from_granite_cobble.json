@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "extracobble:granite_cobble"
+  },
+  "result": "minecraft:granite",
+  "experience": 0.125,
+  "cookingtime": 200
+}

@@ -1,0 +1,15 @@
+{
+  "block.extracobble.andesite_cobble": "Andesite Cobble",
+  "block.extracobble.andesite_gravel": "Andesite Gravel",
+  "block.extracobble.andesite_sand": "Andesite Sand",
+  "block.extracobble.diorite_cobble": "Diorite Cobble",
+  "block.extracobble.diorite_gravel": "Diorite Gravel",
+  "block.extracobble.diorite_sand": "Diorite Sand",
+  "block.extracobble.granite_cobble": "Granite Cobble",
+  "block.extracobble.granite_gravel": "Granite Gravel",
+  "block.extracobble.granite_sand": "Granite Sand",
+  "block.extracobble.mossy_andesite_cobble": "Mossy Andesite Cobble",
+  "block.extracobble.mossy_diorite_cobble": "Mossy Diorite Cobble",
+  "block.extracobble.mossy_granite_cobble": "Mossy Granite Cobble",
+  "itemGroup.extracobble": "Extra Cobble"
+}

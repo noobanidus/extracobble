@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "extracobble:mossy_diorite_cobble"
+  },
+  "result": "minecraft:diorite",
+  "experience": 0.125,
+  "cookingtime": 200
+}

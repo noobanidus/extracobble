@@ -1,0 +1,15 @@
+{
+  "block.extracobble.andesite_cobble": "\u01DD\u05DFqqo\u0186 \u01DD\u0287\u0131s\u01DDpu\u2C6F",
+  "block.extracobble.andesite_gravel": "\u05DF\u01DD\u028C\u0250\u0279\u2141 \u01DD\u0287\u0131s\u01DDpu\u2C6F",
+  "block.extracobble.andesite_sand": "pu\u0250S \u01DD\u0287\u0131s\u01DDpu\u2C6F",
+  "block.extracobble.diorite_cobble": "\u01DD\u05DFqqo\u0186 \u01DD\u0287\u0131\u0279o\u0131\u15E1",
+  "block.extracobble.diorite_gravel": "\u05DF\u01DD\u028C\u0250\u0279\u2141 \u01DD\u0287\u0131\u0279o\u0131\u15E1",
+  "block.extracobble.diorite_sand": "pu\u0250S \u01DD\u0287\u0131\u0279o\u0131\u15E1",
+  "block.extracobble.granite_cobble": "\u01DD\u05DFqqo\u0186 \u01DD\u0287\u0131u\u0250\u0279\u2141",
+  "block.extracobble.granite_gravel": "\u05DF\u01DD\u028C\u0250\u0279\u2141 \u01DD\u0287\u0131u\u0250\u0279\u2141",
+  "block.extracobble.granite_sand": "pu\u0250S \u01DD\u0287\u0131u\u0250\u0279\u2141",
+  "block.extracobble.mossy_andesite_cobble": "\u01DD\u05DFqqo\u0186 \u01DD\u0287\u0131s\u01DDpu\u2C6F \u028EssoW",
+  "block.extracobble.mossy_diorite_cobble": "\u01DD\u05DFqqo\u0186 \u01DD\u0287\u0131\u0279o\u0131\u15E1 \u028EssoW",
+  "block.extracobble.mossy_granite_cobble": "\u01DD\u05DFqqo\u0186 \u01DD\u0287\u0131u\u0250\u0279\u2141 \u028EssoW",
+  "itemGroup.extracobble": "\u01DD\u05DFqqo\u0186 \u0250\u0279\u0287x\u018E"
+}

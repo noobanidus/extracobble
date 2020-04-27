@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "extracobble:andesite_gravel",
+    "extracobble:granite_gravel",
+    "extracobble:diorite_gravel"
+  ]
+}
