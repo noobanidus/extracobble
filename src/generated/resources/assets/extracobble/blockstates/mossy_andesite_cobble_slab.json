@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "extracobble:block/mossy_andesite_cobble_slab_top"
+    },
+    "type=bottom": {
+      "model": "extracobble:block/mossy_andesite_cobble_slab"
+    },
+    "type=double": {
+      "model": "extracobble:block/mossy_andesite_cobble"
+    }
+  }
+}

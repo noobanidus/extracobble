@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "extracobble:mossy_diorite_cobble"
+  },
+  "result": "extracobble:mossy_diorite_cobble_slab",
+  "count": 2
+}

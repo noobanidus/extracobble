@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "slabs",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "extracobble:diorite_cobble"
+    }
+  },
+  "result": {
+    "item": "extracobble:diorite_cobble_slab",
+    "count": 6
+  }
+}

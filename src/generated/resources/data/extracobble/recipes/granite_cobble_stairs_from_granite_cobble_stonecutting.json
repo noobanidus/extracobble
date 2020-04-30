@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "extracobble:granite_cobble"
+  },
+  "result": "extracobble:granite_cobble_stairs",
+  "count": 1
+}

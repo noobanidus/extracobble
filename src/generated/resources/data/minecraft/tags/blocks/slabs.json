@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "extracobble:mossy_andesite_cobble_slab",
+    "extracobble:andesite_cobble_slab",
+    "extracobble:mossy_granite_cobble_slab",
+    "extracobble:granite_cobble_slab",
+    "extracobble:mossy_diorite_cobble_slab",
+    "extracobble:diorite_cobble_slab"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "side": "extracobble:block/mossy_diorite_cobble",
+    "bottom": "extracobble:block/mossy_diorite_cobble",
+    "top": "extracobble:block/mossy_diorite_cobble"
+  }
+}

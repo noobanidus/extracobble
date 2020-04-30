@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "extracobble:mossy_andesite_cobble_stairs",
+    "extracobble:andesite_cobble_stairs",
+    "extracobble:mossy_granite_cobble_stairs",
+    "extracobble:granite_cobble_stairs",
+    "extracobble:mossy_diorite_cobble_stairs",
+    "extracobble:diorite_cobble_stairs"
+  ]
+}
