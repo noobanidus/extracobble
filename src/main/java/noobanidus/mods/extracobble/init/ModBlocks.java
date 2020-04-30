@@ -50,7 +50,7 @@ public class ModBlocks {
       .properties(o -> o.hardnessAndResistance(2.0F, 6.0F))
       .blockstate((ctx, p) -> {
         p.wallBlock(ctx.getEntry(), p.blockTexture(ModBlocks.MOSSY_ANDESITE_COBBLE.get()));
-        p.wallInventory(ctx.getName() + "_inventory", p.blockTexture(ModBlocks.MOSSY_ANDESITE_COBBLE.get()));
+        p.models().wallInventory(ctx.getName() + "_inventory", p.blockTexture(ModBlocks.MOSSY_ANDESITE_COBBLE.get()));
       })
       .item()
       .model((ctx, p) -> p.blockWithInventoryModel(ModBlocks.MOSSY_ANDESITE_COBBLE_WALL))
@@ -96,7 +96,7 @@ public class ModBlocks {
       .properties(o -> o.hardnessAndResistance(2.0F, 6.0F))
       .blockstate((ctx, p) -> {
         p.wallBlock(ctx.getEntry(), p.blockTexture(ModBlocks.ANDESITE_COBBLE.get()));
-        p.wallInventory(ctx.getName() + "_inventory", p.blockTexture(ModBlocks.ANDESITE_COBBLE.get()));
+        p.models().wallInventory(ctx.getName() + "_inventory", p.blockTexture(ModBlocks.ANDESITE_COBBLE.get()));
       })
       .item()
       .model((ctx, p) -> p.blockWithInventoryModel(ModBlocks.ANDESITE_COBBLE_WALL))
@@ -160,7 +160,7 @@ public class ModBlocks {
       .properties(o -> o.hardnessAndResistance(2.0F, 6.0F))
       .blockstate((ctx, p) -> {
         p.wallBlock(ctx.getEntry(), p.blockTexture(ModBlocks.MOSSY_GRANITE_COBBLE.get()));
-        p.wallInventory(ctx.getName() + "_inventory", p.blockTexture(ModBlocks.MOSSY_GRANITE_COBBLE.get()));
+        p.models().wallInventory(ctx.getName() + "_inventory", p.blockTexture(ModBlocks.MOSSY_GRANITE_COBBLE.get()));
       })
       .item()
       .model((ctx, p) -> p.blockWithInventoryModel(ModBlocks.MOSSY_GRANITE_COBBLE_WALL))
@@ -207,7 +207,7 @@ public class ModBlocks {
       .properties(o -> o.hardnessAndResistance(2.0F, 6.0F))
       .blockstate((ctx, p) -> {
         p.wallBlock(ctx.getEntry(), p.blockTexture(ModBlocks.GRANITE_COBBLE.get()));
-        p.wallInventory(ctx.getName() + "_inventory", p.blockTexture(ModBlocks.GRANITE_COBBLE.get()));
+        p.models().wallInventory(ctx.getName() + "_inventory", p.blockTexture(ModBlocks.GRANITE_COBBLE.get()));
       })
       .item()
       .model((ctx, p) -> p.blockWithInventoryModel(ModBlocks.GRANITE_COBBLE_WALL))
@@ -271,7 +271,7 @@ public class ModBlocks {
       .properties(o -> o.hardnessAndResistance(2.0F, 6.0F))
       .blockstate((ctx, p) -> {
         p.wallBlock(ctx.getEntry(), p.blockTexture(ModBlocks.MOSSY_DIORITE_COBBLE.get()));
-        p.wallInventory(ctx.getName() + "_inventory", p.blockTexture(ModBlocks.MOSSY_DIORITE_COBBLE.get()));
+        p.models().wallInventory(ctx.getName() + "_inventory", p.blockTexture(ModBlocks.MOSSY_DIORITE_COBBLE.get()));
       })
       .item()
       .model((ctx, p) -> p.blockWithInventoryModel(ModBlocks.MOSSY_DIORITE_COBBLE_WALL))
@@ -317,7 +317,7 @@ public class ModBlocks {
       .properties(o -> o.hardnessAndResistance(2.0F, 6.0F))
       .blockstate((ctx, p) -> {
         p.wallBlock(ctx.getEntry(), p.blockTexture(ModBlocks.DIORITE_COBBLE.get()));
-        p.wallInventory(ctx.getName() + "_inventory", p.blockTexture(ModBlocks.DIORITE_COBBLE.get()));
+        p.models().wallInventory(ctx.getName() + "_inventory", p.blockTexture(ModBlocks.DIORITE_COBBLE.get()));
       })
       .item()
       .model((ctx, p) -> p.blockWithInventoryModel(ModBlocks.DIORITE_COBBLE_WALL))
