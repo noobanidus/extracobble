@@ -102,7 +102,7 @@ repositories {
         url "http://maven.tterrag.com/"
     }
     maven { // JEI
-        url "http://dvs1.progwml6.com/files/maven"
+        url "https://dvs1.progwml6.com/files/maven"
     }
     maven {
         name = "Jared"
@@ -127,6 +127,8 @@ jar {
 
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+
+    compile fg.deobf("mezz.jei:jei-${jei_version}")
 
     def registrate = "com.tterrag.registrate:Registrate:MC${minecraft_version}-${registrate_version}"
     implementation fg.deobf(registrate)

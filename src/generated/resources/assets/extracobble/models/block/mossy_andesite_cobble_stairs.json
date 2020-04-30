@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "side": "extracobble:block/mossy_andesite_cobble",
+    "bottom": "extracobble:block/mossy_andesite_cobble",
+    "top": "extracobble:block/mossy_andesite_cobble"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "extracobble:andesite_cobble"
+  },
+  "result": "extracobble:andesite_cobble_stairs",
+  "count": 1
+}

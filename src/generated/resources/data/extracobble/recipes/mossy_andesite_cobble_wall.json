@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "walls",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "extracobble:mossy_andesite_cobble"
+    }
+  },
+  "result": {
+    "item": "extracobble:mossy_andesite_cobble_wall",
+    "count": 6
+  }
+}
