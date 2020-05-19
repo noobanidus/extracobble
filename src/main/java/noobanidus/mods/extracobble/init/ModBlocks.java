@@ -14,6 +14,7 @@ import net.minecraftforge.common.ToolType;
 
 import static noobanidus.mods.extracobble.ExtraCobble.REGISTRATE;
 
+@SuppressWarnings("WeakerAccess")
 public class ModBlocks {
   public static RegistryEntry<Block> MOSSY_ANDESITE_COBBLE = REGISTRATE.block("mossy_andesite_cobble", Block::new)
       .properties(o -> o.hardnessAndResistance(2.0F, 6.0F))
@@ -382,7 +383,7 @@ public class ModBlocks {
       .properties(o -> o.hardnessAndResistance(2.0F, 6.0F))
       .blockstate((ctx, p) -> {
         p.wallBlock(ctx.getEntry(), p.blockTexture(Blocks.CRACKED_STONE_BRICKS));
-        p.models().wallInventory(ctx.getName() + "_inventory", p.blockTexture(Blocks.CRACKED_STONE_BRICKS));
+        p.wallInventory(ctx.getName() + "_inventory", p.blockTexture(Blocks.CRACKED_STONE_BRICKS));
       })
       .item()
       .model((ctx, p) -> p.blockWithInventoryModel(ModBlocks.CRACKED_STONE_BRICK_WALL))
@@ -396,7 +397,7 @@ public class ModBlocks {
       .properties(o -> o.hardnessAndResistance(2.0F, 6.0F))
       .blockstate((ctx, p) -> {
         p.wallBlock(ctx.getEntry(), p.blockTexture(Blocks.POLISHED_DIORITE));
-        p.models().wallInventory(ctx.getName() + "_inventory", p.blockTexture(Blocks.POLISHED_DIORITE));
+        p.wallInventory(ctx.getName() + "_inventory", p.blockTexture(Blocks.POLISHED_DIORITE));
       })
       .item()
       .model((ctx, p) -> p.blockWithInventoryModel(ModBlocks.POLISHED_DIORITE_WALL))
@@ -410,7 +411,7 @@ public class ModBlocks {
       .properties(o -> o.hardnessAndResistance(2.0F, 6.0F))
       .blockstate((ctx, p) -> {
         p.wallBlock(ctx.getEntry(), p.blockTexture(Blocks.POLISHED_GRANITE));
-        p.models().wallInventory(ctx.getName() + "_inventory", p.blockTexture(Blocks.POLISHED_GRANITE));
+        p.wallInventory(ctx.getName() + "_inventory", p.blockTexture(Blocks.POLISHED_GRANITE));
       })
       .item()
       .model((ctx, p) -> p.blockWithInventoryModel(ModBlocks.POLISHED_GRANITE_WALL))
@@ -424,7 +425,7 @@ public class ModBlocks {
       .properties(o -> o.hardnessAndResistance(2.0F, 6.0F))
       .blockstate((ctx, p) -> {
         p.wallBlock(ctx.getEntry(), p.blockTexture(Blocks.POLISHED_ANDESITE));
-        p.models().wallInventory(ctx.getName() + "_inventory", p.blockTexture(Blocks.POLISHED_ANDESITE));
+        p.wallInventory(ctx.getName() + "_inventory", p.blockTexture(Blocks.POLISHED_ANDESITE));
       })
       .item()
       .model((ctx, p) -> p.blockWithInventoryModel(ModBlocks.POLISHED_ANDESITE_WALL))
@@ -470,7 +471,7 @@ public class ModBlocks {
       .properties(o -> o.hardnessAndResistance(2.0F, 6.0F))
       .blockstate((ctx, p) -> {
         p.wallBlock(ctx.getEntry(), p.blockTexture(ModBlocks.DIORITE_BRICKS.get()));
-        p.models().wallInventory(ctx.getName() + "_inventory", p.blockTexture(ModBlocks.DIORITE_BRICKS.get()));
+        p.wallInventory(ctx.getName() + "_inventory", p.blockTexture(ModBlocks.DIORITE_BRICKS.get()));
       })
       .item()
       .model((ctx, p) -> p.blockWithInventoryModel(ModBlocks.DIORITE_BRICK_WALL))
@@ -522,7 +523,7 @@ public class ModBlocks {
       .properties(o -> o.hardnessAndResistance(2.0F, 6.0F))
       .blockstate((ctx, p) -> {
         p.wallBlock(ctx.getEntry(), p.blockTexture(ModBlocks.ANDESITE_BRICKS.get()));
-        p.models().wallInventory(ctx.getName() + "_inventory", p.blockTexture(ModBlocks.ANDESITE_BRICKS.get()));
+        p.wallInventory(ctx.getName() + "_inventory", p.blockTexture(ModBlocks.ANDESITE_BRICKS.get()));
       })
       .item()
       .model((ctx, p) -> p.blockWithInventoryModel(ModBlocks.ANDESITE_BRICK_WALL))
@@ -574,7 +575,7 @@ public class ModBlocks {
       .properties(o -> o.hardnessAndResistance(2.0F, 6.0F))
       .blockstate((ctx, p) -> {
         p.wallBlock(ctx.getEntry(), p.blockTexture(ModBlocks.GRANITE_BRICKS.get()));
-        p.models().wallInventory(ctx.getName() + "_inventory", p.blockTexture(ModBlocks.GRANITE_BRICKS.get()));
+        p.wallInventory(ctx.getName() + "_inventory", p.blockTexture(ModBlocks.GRANITE_BRICKS.get()));
       })
       .item()
       .model((ctx, p) -> p.blockWithInventoryModel(ModBlocks.GRANITE_BRICK_WALL))
