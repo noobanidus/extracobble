@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "extracobble:chiseled_diorite_bricks"
+    ]
+  },
+  "criteria": {
+    "has_chiseled_diorite_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "extracobble:chiseled_diorite_bricks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "extracobble:chiseled_diorite_bricks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chiseled_diorite_bricks",
+      "has_the_recipe"
+    ]
+  ]
+}

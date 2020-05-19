@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "extracobble:block/granite_brick_slab_top"
+    },
+    "type=bottom": {
+      "model": "extracobble:block/granite_brick_slab"
+    },
+    "type=double": {
+      "model": "extracobble:block/granite_bricks"
+    }
+  }
+}

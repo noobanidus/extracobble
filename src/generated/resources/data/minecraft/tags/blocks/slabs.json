@@ -6,6 +6,10 @@
     "extracobble:mossy_granite_cobble_slab",
     "extracobble:granite_cobble_slab",
     "extracobble:mossy_diorite_cobble_slab",
-    "extracobble:diorite_cobble_slab"
+    "extracobble:diorite_cobble_slab",
+    "extracobble:cracked_stone_brick_slab",
+    "extracobble:diorite_brick_slab",
+    "extracobble:andesite_brick_slab",
+    "extracobble:granite_brick_slab"
   ]
 }
