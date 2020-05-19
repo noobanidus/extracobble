@@ -6,6 +6,13 @@
     "extracobble:mossy_granite_cobble_wall",
     "extracobble:granite_cobble_wall",
     "extracobble:mossy_diorite_cobble_wall",
-    "extracobble:diorite_cobble_wall"
+    "extracobble:diorite_cobble_wall",
+    "extracobble:cracked_stone_brick_wall",
+    "extracobble:polished_diorite_wall",
+    "extracobble:polished_granite_wall",
+    "extracobble:polished_andesite_wall",
+    "extracobble:diorite_brick_wall",
+    "extracobble:andesite_brick_wall",
+    "extracobble:granite_brick_wall"
   ]
 }

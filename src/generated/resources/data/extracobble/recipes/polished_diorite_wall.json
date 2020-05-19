@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "walls",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:polished_diorite"
+    }
+  },
+  "result": {
+    "item": "extracobble:polished_diorite_wall",
+    "count": 6
+  }
+}
