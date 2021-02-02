@@ -1,5 +1,5 @@
 {
-  "parent": "block/inner_stairs",
+  "parent": "minecraft:block/inner_stairs",
   "textures": {
     "side": "extracobble:block/mossy_granite_cobble",
     "bottom": "extracobble:block/mossy_granite_cobble",
